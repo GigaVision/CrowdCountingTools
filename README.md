@@ -21,18 +21,20 @@ Tool to visualize crowd counting ground truth annotations.
 ### Input:
 json_path: the path to json annotation files
 json format:  
-   {
-      "JPG_FILE_PATH":[
-          {"x": x_coordinate,
-           "y": x_coordinate
-          },
-          {"x": x_coordinate,
-           "y": x_coordinate
-          },
-          ...
-      ],
-      ...
-   }
+```json
+{
+   "JPG_FILE_PATH":[
+       {"x": x_coordinate,
+        "y": x_coordinate
+       },
+       {"x": x_coordinate,
+        "y": x_coordinate
+       },
+       ...
+   ],
+   ...
+}
+```
 scale: image zoom scale
 is_show: is show image with annotation or not
 is_save: is save image with annotation or not
