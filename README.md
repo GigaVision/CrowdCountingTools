@@ -1,6 +1,7 @@
 # CrowdCountingTools
 Result evaluation and annotation visualization tools for HumanNet dataset task 1 - crowd counting.
-[Our website](http://www.gigavision.cn) 
+
+Link to [our website.](http://www.gigavision.cn) 
 
 ## cc_evaluste_tools.py
 Tool to calculate 3 evaluation results of crowd counting.
